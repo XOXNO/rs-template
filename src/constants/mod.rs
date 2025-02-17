@@ -1,0 +1,7 @@
+use multiversx_sc::hex_literal::hex;
+
+pub const MIN_GAS_FOR_ASYNC_CALL: u64 = 15_000_000;
+pub const MAX_PERCENTAGE: u64 = 10_000; // 100%
+
+pub const DELEGATION_MANAGER: [u8; 32] =
+    hex!("000000000000000000010000000000000000000000000000000000000004ffff");
